@@ -1,6 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-
+import { BrowserRouter, Link, Route, Routes } from "react-router-dom"
+import Home from './Home'
+import About from './About'
 /**
  * Challenge:
  * Bootstrap the VanLife project by creating the first 2 routes:
@@ -19,10 +21,20 @@ import ReactDOM from 'react-dom/client';
 
 function App() {
   return (
-    <h1>Start here</h1>
+    // <BrowserRouter>
+    //   <nav>
+    //     <Link to={'/'}>Home</Link>
+    //     <Link to={'/about'}>About</Link>
+    //   </nav>
+    //   <Routes>
+    //     <Route path='/' element={<Home />} />
+    //     <Route path='/about' element={<About />} />
+    //   </Routes>
+    // </BrowserRouter>
+    <h1>Hello World</h1>
   )
 }
 
-ReactDOM
-  .createRoot(document.getElementById('root'))
-  .render(<App />);
+ReactDOM.createRoot(document.getElementById('root')).render(
+  <App />
+);

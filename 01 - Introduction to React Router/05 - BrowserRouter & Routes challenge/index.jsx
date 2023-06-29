@@ -8,6 +8,8 @@ import { BrowserRouter, Routes } from "react-router-dom"
  */
 ReactDOM.createRoot(document.getElementById("root")).render(
   <BrowserRouter>
-    <Routes></Routes>
+    <Routes>
+      
+    </Routes>
   </BrowserRouter>
 )
